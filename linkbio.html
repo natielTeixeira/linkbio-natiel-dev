@@ -5,100 +5,153 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Natiel.Dev | Desenvolvedor Front-End</title>
     <link rel="stylesheet" href="linkbio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akronim&family=Bilbo+Swash+Caps&family=Bonheur+Royale&family=Eagle+Lake&family=Foldit:wght@100..900&family=Iceberg&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Metamorphous&family=New+Rocker&family=Pirata+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Glitch&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
     <meta name="description" content="Linkbio de Natiel Dev, desenvolvedor front-end especializado em sites e landing pages modernas, rápidas e acessíveis.">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <p><strong>Desenvolvedor Front-End</strong></p>
-            <nav>
-                <a href="#links">Links</a>
-                <a href="#contato">Contato</a>
-                <a href="#skills">Skills</a>
-            </nav>
-            <div class="contatar">
-                <a href="https://wa.me/+5518998010298"  target="_blank" rel="noopener noreferrer" class="destaque">Contatar</a>
+
+    <div class="circle"></div>
+    
+    <nav class="navegacao">
+        <ul class="menu">
+            <li>
+                <a href="#sobre" class="menu-link">Sobre</a>
+            </li>
+            <li>
+                <a href="#skills" class="menu-link">Skills</a>
+            </li>
+            <li>
+                <a href="#projetos" class="menu-link">Projetos</a>
+            </li>
+            <li>
+                <a href="#contato" class="menu-link">Contato</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <main id="inicio" class="cabecalho">
+        
+        <img src="./img/minha-foto.jpeg" alt="Natiel Dev, desenvolvedor front-end" class="foto-perfil">
+        <h1>Natiel Teixeira</h1>
+        <p>Desenvolvedor Front-End</p>
+
+    </main>
+
+    <section class="container sobre" id="sobre">
+        <h2 class="sobre-titulo" id="sobre">Sobre Mim</h2>
+        <div class="sobre-box">
+            <p class="sobre-paragrafo">
+                Olá! sou desenvolvedor front-end especializado em HTML, CSS e JavaScript, crio sites e landing pages modernas, rápidas e acessíveis. Transformo ideias em experiências digitais que geram valor para marcas e pessoas.
+            </p>
+        </div>
+    </section>
+
+    <section class="container secao-skills" id="skills">
+        <h2 class="title">Tecnologias Front-End</h2>
+        <p class="texto">
+            Trabalho com as principais tecnologias do front-end para criar interfaces modernas, responsivas e performáticas.
+        </p>
+        <div class="box-skills">
+            <div class="skill">
+                <i class="fa-brands fa-html5"></i>
+                <p>HTML5</p>
+            </div>
+            <div class="skill">
+                <i class="fa-brands fa-css3-alt"></i>
+                <p>CSS3</p>
+            </div>
+            <div class="skill">
+                <i class="fa-brands fa-square-js"></i>
+                <p>JavaSccript</p>
+            </div>
+            <div class="skill">
+                <i class="fa-brands fa-git-alt"></i>
+                <p>Git</p>
+            </div>
+            <div class="skill">
+                <i class="fa-brands fa-github"></i>
+                <p>GitHub</p>
             </div>
         </div>
-    </header>
-    <main>
-        <section class="container sobre-mim">
-            <div class="fundo-borda">
-                <img src="./img/minha-foto.jpeg" alt="Natiel Dev, desenvolvedor front-end">
-            </div>
-            <div class="sobre">
-                <h1>Natiel Dev</h1>
-                <h2>Front-end Developer</h2>
-                <p>
-                    Sou desenvolvedor front-end especializado em HTML e CSS, criando sites e landing pages modernas, rápidas e acessíveis. Transformo ideias em experiências digitais que geram valor para marcas e pessoas.
-                </p>
-            </div>
-        </section>
-        <section class="container main-links" id="links">
-            <p>
-                Acesse meu portfólio, projetos e redes profissionais ou entre em contato para criar seu site.
-            </p>
-            <div class="redes">
-               <!--- <a href="#">Ver Portfólio</a>-->
-                <a class="github" href="https://github.com/Natiel-Nagato" target="_blank" rel="noopener noreferrer">GitHub</a>
-                <a class="linkedin" href="https://www.linkedin.com/in/natiel-teixeira-dos-santos-4a0854396?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                <a class="instagram" href="https://www.instagram.com/natiel_gomesxp?igsh=dzdsanVpaW85dHhu" target="_blank" rel="noopener noreferrer">Instagram</a>
-                <a href="tel:+5518998010298" target="_blank" class="destaque">Falar comigo agora</a>
-            </div>
-        </section>
-        <section class="container secao-skills" id="skills">
-            <h2>Tecnologias Front-End</h2>
-            <p class="texto">
-                Trabalho com as principais tecnologias do front-end para criar interfaces modernas, responsivas e performáticas.
-            </p>
-            <div class="box-skills">
-                <div class="skill">
-                    <img src="./img/html.png" alt="Logo HTML5">
-                    <p>HTML5</p>
-                </div>
-                <div class="skill">
-                    <img src="./img/text.png" alt="Logo CSS3">
-                    <p>CSS3</p>
-                </div>
-                <div class="skill">
-                    <img src="./img/social.png" alt="Logo Git">
-                    <p>Git</p>
-                </div>
-                <div class="skill">
-                    <img src="./img/github.png" alt="Logo GitHub">
-                    <p>GitHub</p>
-                </div>
-            </div>
-        </section>
-    <!--  <section class="container projetos">
-             <h2>Projetos Recentes</h2>
-            <p>confira alguns projetos front-end desenvolvidos com foco em design, performance e experiência do usuário</p>
-        <div class="card-projeto">
-                <img src="" alt="">
-                <h3></h3>
-                <p></p>
-            </div>
+    </section>
+
+    <section class="container projetos">
+
+        <h2 class="title">Projetos</h2>
+        <div class="containCard">
             <div class="card-projeto">
-                <img src="" alt="">
-                <h3></h3>
-                <p></p>
+                <img src="./img/clock.png" alt="Relógio Digital">
+                    <div class="box-text-project">
+                    <h3 class="info-projetos">Relógio Digital</h3>
+                    <p class="paragrafo-projetos">
+                        Aplicação web desenvolvida em JavaScript que exibe a hora e a data em tempo real. O projeto conta com atualização automática do relógio, exibição da data no formato brasileiro e um botão que permite alterar dinamicamente as cores da interface, proporcionando uma experiência mais interativa ao usuário. O layout foi construído com foco em responsividade e boa usabilidade em dispositivos móveis e desktops.
+                    </p>
+                </div>
             </div>
+
             <div class="card-projeto">
-                <img src="" alt="">
-                <h3></h3>
-                <p></p>
+                <img src="./img/refriFrut.png" alt="Refrigerante de frutas">
+                <div class="box-text-project">
+                    <h3 class="info-projetos">Refrigerante de frutas</h3>
+                    <p class="paragrafo-projetos">
+                        Landing page desenvolvida para divulgação de um refrigerante sabor frutas, com foco em design atrativo, valorização do produto e experiência visual. O projeto utiliza uma estrutura moderna, imagens em destaque e uma organização que direciona a atenção do usuário para as principais informações do produto. A interface foi construída seguindo o conceito Mobile First e totalmente responsiva para diferentes dispositivos.
+                    </p>
+                </div>
             </div>
-        </section>-->
-        <section class="container secao-contato" id="contato">
-            <div class="contato">
-                <h2>Vamos criar seu site?</h2>
-                <p>Se você precisa de um site profissional, landing page ou quer tirar uma ideia do papel, entre em contato comigo.
-                </p>
-                <a href="mailto:natiel.gomes10@gmail.com" target="_blank" class="email destaque">Enviar Email</a>
-                <a href="https://wa.me/+5518998010298" target="_blank" class="whats">Chamar no WhatsApp</a>
+
+            <div class="card-projeto">
+                <img src="./img/clinicaCML.png" alt="clínica Médica Life">
+                <div class="box-text-project">
+                    <h3 class="info-projetos">Clinica Médica Life</h3>
+                    <p class="paragrafo-projetos">
+                        Landing page institucional desenvolvida para uma clínica médica, com foco em acessibilidade, organização das informações e experiência do usuário. O projeto apresenta uma interface moderna e responsiva, permitindo que pacientes encontrem facilmente informações sobre especialidades, horários de atendimento, equipe médica e formas de contato. O layout foi desenvolvido seguindo boas práticas de HTML e CSS, priorizando navegação intuitiva e adaptação para diferentes tamanhos de tela.
+                    </p>
+                </div>
             </div>
-        </section>
-    </main>
+        </div>
+        
+
+    </section>
+
+    <section class="container secao-contato" id="contato">
+        <h2 class="title">Redes Sociais</h2>
+        <div class="redes" id="contato">
+        <!--- <a href="#">Ver Portfólio</a>-->
+            <a class="github" href="https://github.com/Natiel-Nagato" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                GitHub
+            </a>
+            <a class="linkedin" href="https://www.linkedin.com/in/natiel-teixeira-dos-santos-4a0854396?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                LinkedIn</a>
+            <a class="instagram" href="https://www.instagram.com/natiel_gomesxp?igsh=dzdsanVpaW85dHhu" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-instagram"></i>
+                Instagram</a>
+        </div>
+        <div class="contato">
+            <h2 class="contato-title">Entre em contato</h2>
+            
+            <form class="formulario-contato" id="formulario" onsubmit="enviar(event)">
+                <div class="grupo-form">
+                    <input type="text" class="campo-form" id="nome" placeholder="nome">
+                </div>
+
+                <div class="grupo-form">
+                    <textarea class="campo-form" id="mensagem" rows="4" placeholder="Digite sua mensaagem"></textarea>
+                </div>
+                <button type="submit" class="btn-form">Enviar via whatsapp</button>
+            </form>
+        </div>
+    </section>
+
     <footer>
         <span>© 2026 Natiel Dev - Todos os direitos reservados</span>
     </footer>
